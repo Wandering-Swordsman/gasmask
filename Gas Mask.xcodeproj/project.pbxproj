@@ -41,7 +41,6 @@
 		352E04BA10627C1D0071E25B /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352E04B910627C1D0071E25B /* ApplicationController.m */; };
 		352E04FC106281940071E25B /* Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 352E04F8106281940071E25B /* Activate.png */; };
 		352E04FD106281940071E25B /* Create.png in Resources */ = {isa = PBXBuildFile; fileRef = 352E04F9106281940071E25B /* Create.png */; };
-		352E04FF106281940071E25B /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = 352E04FB106281940071E25B /* Save.png */; };
 		352E050E106283630071E25B /* EditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352E050D106283630071E25B /* EditorController.m */; };
 		352E0556106288400071E25B /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 352E0555106288400071E25B /* Node.m */; };
 		352E059310628A2F0071E25B /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 352E059210628A2F0071E25B /* Cell.m */; };
@@ -243,7 +242,6 @@
 		352E04B910627C1D0071E25B /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationController.m; path = Source/ApplicationController.m; sourceTree = "<group>"; };
 		352E04F8106281940071E25B /* Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Activate.png; path = Resources/Images/Activate.png; sourceTree = "<group>"; };
 		352E04F9106281940071E25B /* Create.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Create.png; path = Resources/Images/Create.png; sourceTree = "<group>"; };
-		352E04FB106281940071E25B /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Save.png; path = Resources/Images/Save.png; sourceTree = "<group>"; };
 		352E050C106283630071E25B /* EditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditorController.h; path = Source/EditorController.h; sourceTree = "<group>"; };
 		352E050D106283630071E25B /* EditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditorController.m; path = Source/EditorController.m; sourceTree = "<group>"; };
 		352E0554106288400071E25B /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = Source/Node.h; sourceTree = "<group>"; };
@@ -389,14 +387,14 @@
 		35FBCA501223181000860FDA /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		35FC65991114B12600BD18C3 /* launcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = launcher.m; path = Source/launcher.m; sourceTree = "<group>"; };
 		35FC65A71114B29A00BD18C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		7E2C16CD1DE5814A003A2EC3 /* Create.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Create.png; sourceTree = "<group>"; };
-		7E2C16CE1DE5814A003A2EC3 /* Create@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create@2x.png"; sourceTree = "<group>"; };
-		7E2C16D11DE5815D003A2EC3 /* Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Activate.png; sourceTree = "<group>"; };
-		7E2C16D21DE5815D003A2EC3 /* Activate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Activate@2x.png"; sourceTree = "<group>"; };
-		7E2C16D51DE58172003A2EC3 /* Remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Remove.png; sourceTree = "<group>"; };
-		7E2C16D61DE58172003A2EC3 /* Remove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Remove@2x.png"; sourceTree = "<group>"; };
-		7E2C16D71DE58172003A2EC3 /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
-		7E2C16D81DE58172003A2EC3 /* Save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save@2x.png"; sourceTree = "<group>"; };
+		7E2C16CD1DE5814A003A2EC3 /* Create.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Create.png; path = Resources/Images/Create.png; sourceTree = "<group>"; };
+		7E2C16CE1DE5814A003A2EC3 /* Create@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Create@2x.png"; path = "Resources/Images/Create@2x.png"; sourceTree = "<group>"; };
+		7E2C16D11DE5815D003A2EC3 /* Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Activate.png; path = Resources/Images/Activate.png; sourceTree = "<group>"; };
+		7E2C16D21DE5815D003A2EC3 /* Activate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Activate@2x.png"; path = "Resources/Images/Activate@2x.png"; sourceTree = "<group>"; };
+		7E2C16D51DE58172003A2EC3 /* Remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Remove.png; path = Resources/Images/Remove.png; sourceTree = "<group>"; };
+		7E2C16D61DE58172003A2EC3 /* Remove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Remove@2x.png"; path = "Resources/Images/Remove@2x.png"; sourceTree = "<group>"; };
+		7E2C16D71DE58172003A2EC3 /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Save.png; path = Resources/Images/Save.png; sourceTree = "<group>"; };
+		7E2C16D81DE58172003A2EC3 /* Save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Save@2x.png"; path = "Resources/Images/Save@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.info; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Gas Mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -722,7 +720,6 @@
 				35B0499A1A462AE900EB89CA /* Activated@2x.png */,
 				352E04F9106281940071E25B /* Create.png */,
 				350C7F381A3C55B000B46B09 /* Create@2x.png */,
-				352E04FB106281940071E25B /* Save.png */,
 				354E80A010AF33C100FC4757 /* applicationIcon.icns */,
 				35116A8410D6ABA000A5FAA1 /* menuIcon.tiff */,
 				35A183A71A0ACF37002D6289 /* menuIcon@2x.tiff */,
@@ -993,7 +990,6 @@
 				352E04FC106281940071E25B /* Activate.png in Resources */,
 				352E04FD106281940071E25B /* Create.png in Resources */,
 				7E2C16CF1DE5814A003A2EC3 /* Create.png in Resources */,
-				352E04FF106281940071E25B /* Save.png in Resources */,
 				358E0A891A3A1E1A004521D1 /* Remote yosemite@2x.tiff in Resources */,
 				35B049941A46234100EB89CA /* Remote.png in Resources */,
 				352E05B610628D790071E25B /* Activated.png in Resources */,
