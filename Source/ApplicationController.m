@@ -69,6 +69,12 @@ static ApplicationController *sharedInstance = nil;
 
 -(IBAction)openPreferencesWindow:(id)sender
 {
+    if (!editorWindowOpened) {
+        [self initEditorWindow];
+    }
+    
+    [self showApplicationInDock];
+
 	if (!preferenceController) {
 		preferenceController = [[PreferenceController alloc] init];
 	}
