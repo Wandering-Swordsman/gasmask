@@ -143,6 +143,14 @@
 		35F414F4152E1B7800B99583 /* VDKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F414F3152E1B7800B99583 /* VDKQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		35FBCA3B1223172300860FDA /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FBCA3A1223172300860FDA /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		35FBCA511223181000860FDA /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35FBCA501223181000860FDA /* libicucore.dylib */; };
+		7E2C16CF1DE5814A003A2EC3 /* Create.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16CD1DE5814A003A2EC3 /* Create.png */; };
+		7E2C16D01DE5814A003A2EC3 /* Create@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16CE1DE5814A003A2EC3 /* Create@2x.png */; };
+		7E2C16D31DE5815D003A2EC3 /* Activate.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16D11DE5815D003A2EC3 /* Activate.png */; };
+		7E2C16D41DE5815D003A2EC3 /* Activate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16D21DE5815D003A2EC3 /* Activate@2x.png */; };
+		7E2C16D91DE58172003A2EC3 /* Remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16D51DE58172003A2EC3 /* Remove.png */; };
+		7E2C16DA1DE58172003A2EC3 /* Remove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16D61DE58172003A2EC3 /* Remove@2x.png */; };
+		7E2C16DB1DE58172003A2EC3 /* Save.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16D71DE58172003A2EC3 /* Save.png */; };
+		7E2C16DC1DE58172003A2EC3 /* Save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2C16D81DE58172003A2EC3 /* Save@2x.png */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -381,6 +389,14 @@
 		35FBCA501223181000860FDA /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		35FC65991114B12600BD18C3 /* launcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = launcher.m; path = Source/launcher.m; sourceTree = "<group>"; };
 		35FC65A71114B29A00BD18C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7E2C16CD1DE5814A003A2EC3 /* Create.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Create.png; sourceTree = "<group>"; };
+		7E2C16CE1DE5814A003A2EC3 /* Create@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Create@2x.png"; sourceTree = "<group>"; };
+		7E2C16D11DE5815D003A2EC3 /* Activate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Activate.png; sourceTree = "<group>"; };
+		7E2C16D21DE5815D003A2EC3 /* Activate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Activate@2x.png"; sourceTree = "<group>"; };
+		7E2C16D51DE58172003A2EC3 /* Remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Remove.png; sourceTree = "<group>"; };
+		7E2C16D61DE58172003A2EC3 /* Remove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Remove@2x.png"; sourceTree = "<group>"; };
+		7E2C16D71DE58172003A2EC3 /* Save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Save.png; sourceTree = "<group>"; };
+		7E2C16D81DE58172003A2EC3 /* Save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.info; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Gas Mask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gas Mask.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -691,8 +707,16 @@
 				358E0A821A3A1C54004521D1 /* Local File yosemite.tiff */,
 				358E0A831A3A1C54004521D1 /* Local File yosemite@2x.tiff */,
 				35E2107F1A86A19C00737C00 /* Remove.tiff */,
+				7E2C16CD1DE5814A003A2EC3 /* Create.png */,
+				7E2C16D11DE5815D003A2EC3 /* Activate.png */,
+				7E2C16D21DE5815D003A2EC3 /* Activate@2x.png */,
+				7E2C16CE1DE5814A003A2EC3 /* Create@2x.png */,
 				352E05B310628D790071E25B /* Activated.png */,
 				352E05B410628D790071E25B /* Blue Dot.png */,
+				7E2C16D51DE58172003A2EC3 /* Remove.png */,
+				7E2C16D61DE58172003A2EC3 /* Remove@2x.png */,
+				7E2C16D71DE58172003A2EC3 /* Save.png */,
+				7E2C16D81DE58172003A2EC3 /* Save@2x.png */,
 				35B0499C1A462BC500EB89CA /* Blue Dot@2x.png */,
 				352E04F8106281940071E25B /* Activate.png */,
 				35B0499A1A462AE900EB89CA /* Activated@2x.png */,
@@ -917,11 +941,11 @@
 				ORGANIZATIONNAME = Clockwise;
 				TargetAttributes = {
 					3579F0CC1114B7B900123416 = {
-						DevelopmentTeam = F377YS9A4R;
+						DevelopmentTeam = LDQ75TL3X3;
 						ProvisioningStyle = Automatic;
 					};
 					8D1107260486CEB800E47090 = {
-						DevelopmentTeam = F377YS9A4R;
+						DevelopmentTeam = LDQ75TL3X3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -959,12 +983,16 @@
 				35E210801A86A19C00737C00 /* Remove.tiff in Resources */,
 				35B049921A46234100EB89CA /* Editor.png in Resources */,
 				35B049931A46234100EB89CA /* Hotkeys.png in Resources */,
+				7E2C16D31DE5815D003A2EC3 /* Activate.png in Resources */,
 				3579F1181114B95300123416 /* Launcher.app in Resources */,
+				7E2C16D41DE5815D003A2EC3 /* Activate@2x.png in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				352E049F10627A830071E25B /* Editor.xib in Resources */,
+				7E2C16DB1DE58172003A2EC3 /* Save.png in Resources */,
 				352E04FC106281940071E25B /* Activate.png in Resources */,
 				352E04FD106281940071E25B /* Create.png in Resources */,
+				7E2C16CF1DE5814A003A2EC3 /* Create.png in Resources */,
 				352E04FF106281940071E25B /* Save.png in Resources */,
 				358E0A891A3A1E1A004521D1 /* Remote yosemite@2x.tiff in Resources */,
 				35B049941A46234100EB89CA /* Remote.png in Resources */,
@@ -977,6 +1005,7 @@
 				353A80FC10B020B10005CAD1 /* UserDefaults.plist in Resources */,
 				358E0A881A3A1E1A004521D1 /* Remote yosemite.tiff in Resources */,
 				35116A8510D6ABA000A5FAA1 /* menuIcon.tiff in Resources */,
+				7E2C16D01DE5814A003A2EC3 /* Create@2x.png in Resources */,
 				35116AA010D6ADF000A5FAA1 /* Preferences.xib in Resources */,
 				352F48D210DA90FE000003BE /* default.hst in Resources */,
 				3545DC7310E38DDE00EBA66D /* Offline.png in Resources */,
@@ -986,6 +1015,7 @@
 				35B0499D1A462BC500EB89CA /* Blue Dot@2x.png in Resources */,
 				3528ECEB10E3F87E003C8CB9 /* Syncing_arrows3.png in Resources */,
 				358C36E81A0D6FCC00161C98 /* Combined_File_yosemite@2x.tiff in Resources */,
+				7E2C16DA1DE58172003A2EC3 /* Remove@2x.png in Resources */,
 				3528ECEC10E3F87E003C8CB9 /* Syncing_arrows4.png in Resources */,
 				3528ECED10E3F87E003C8CB9 /* Syncing_arrows5.png in Resources */,
 				3528ECEE10E3F87E003C8CB9 /* Syncing_arrows6.png in Resources */,
@@ -999,11 +1029,13 @@
 				354C0BC510E782A5005B9A33 /* hosts.icns in Resources */,
 				356712D51132F80600DF30E0 /* URLSheet.xib in Resources */,
 				35730FDD1134291300066B68 /* Remote old.png in Resources */,
+				7E2C16D91DE58172003A2EC3 /* Remove.png in Resources */,
 				35730FE911342C6E00066B68 /* Remote_disabled.png in Resources */,
 				3530F7EB1135536100E591BA /* Warning.png in Resources */,
 				3530F93D113598A800E591BA /* Alert_rollover.png in Resources */,
 				3530F93E113598A800E591BA /* Alert.png in Resources */,
 				3513A600113908A900AD789D /* Read Only.png in Resources */,
+				7E2C16DC1DE58172003A2EC3 /* Save@2x.png in Resources */,
 				35E900B91147FC5D00851A25 /* InfoBubbleView.xib in Resources */,
 				35498EDB12187F5D00E46952 /* Offline_rollover.png in Resources */,
 				35DA4DF6123BF4F30043CA87 /* sparkle_dsa_pub.pem in Resources */,
@@ -1136,7 +1168,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = F377YS9A4R;
+				DEVELOPMENT_TEAM = LDQ75TL3X3;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1152,7 +1184,7 @@
 					"-framework",
 					AppKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ee.clockwise.gmask.launcher;
+				PRODUCT_BUNDLE_IDENTIFIER = net.agalwood.gmask.launcher;
 				PRODUCT_NAME = Launcher;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
@@ -1167,7 +1199,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = F377YS9A4R;
+				DEVELOPMENT_TEAM = LDQ75TL3X3;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
@@ -1181,7 +1213,7 @@
 					"-framework",
 					AppKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ee.clockwise.gmask.launcher;
+				PRODUCT_BUNDLE_IDENTIFIER = net.agalwood.gmask.launcher;
 				PRODUCT_NAME = Launcher;
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
@@ -1197,7 +1229,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = F377YS9A4R;
+				DEVELOPMENT_TEAM = LDQ75TL3X3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
@@ -1211,7 +1243,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = ee.clockwise.gmask;
+				PRODUCT_BUNDLE_IDENTIFIER = net.agalwood.gmask;
 				PRODUCT_NAME = "Gas Mask";
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
@@ -1226,7 +1258,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = F377YS9A4R;
+				DEVELOPMENT_TEAM = LDQ75TL3X3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Frameworks\"",
@@ -1238,7 +1270,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = ee.clockwise.gmask;
+				PRODUCT_BUNDLE_IDENTIFIER = net.agalwood.gmask;
 				PRODUCT_NAME = "Gas Mask";
 				SDKROOT = macosx;
 				VALID_ARCHS = x86_64;
